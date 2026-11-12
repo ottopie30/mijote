@@ -249,7 +249,7 @@
       ${TECH.length ? `
         <h2 class="h2" style="margin-top:26px">Les 8 gestes</h2>
         ${TECH.map((t) => `<div class="trend"><div class="trend-top"><span class="trend-name">${esc(t.nom || t.name || '')}</span></div><p class="trend-desc">${esc(t.detail || t.explication || t.description || '')}</p></div>`).join('')}` : ''}
-      <p class="credits">Photos : Openverse / Wikimedia Commons, sous licences Creative Commons — détail dans <code>credits.json</code>. Les liens TikTok ouvrent une recherche, ce ne sont pas des vidéos d'origine.</p>`;
+      <p class="credits">Les liens TikTok ouvrent une recherche sur le nom du plat : ce ne sont pas des vidéos d'origine, juste des versions filmées de la même idée.</p>`;
   }
 
   /* --------------------------------------------------------------- sheet */
