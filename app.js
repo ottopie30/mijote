@@ -325,8 +325,7 @@
 
   function render() {
     screen.innerHTML = views[state.tab]();
-    const big = screen.querySelector('.knum');
-    if (big) { const v = parseInt(big.textContent, 10) || 0; big.textContent = '0'; countUp(big, v, ''); }
+    // pas de compteur sur les kcal : un chiffre qui bouge se lit faux dans une capture
     document.querySelectorAll('.tab').forEach((t) => t.classList.toggle('is-on', t.dataset.go === state.tab));
     document.querySelectorAll('.pbtn').forEach((b) => {
       const on = b.dataset.profile === state.profile;
