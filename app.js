@@ -13,6 +13,7 @@
     tab: 'today',
     profile: localStorage.getItem('mj-profile') || 'elle',
     day: new Date().getDay() === 0 ? 6 : new Date().getDay() - 1,
+    week: Number(localStorage.getItem('mj-week') || 0),
     favs: JSON.parse(localStorage.getItem('mj-favs') || '[]'),
     checked: JSON.parse(localStorage.getItem('mj-checked') || '[]'),
     filter: 'tous',
@@ -25,7 +26,7 @@
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
   /* ------------------------------------------------------------ helpers */
-  const byDay = () => JOURS.map((j, i) => R.find((r) => r.jour_suggere === j) || R[i]).filter(Boolean);
+  const byDay = () => R.slice(state.week * 7, state.week * 7 + 7);
   const kcalOf = (r) => (r.portions?.[state.profile]?.kcal ?? 0);
   const protOf = (r) => (r.portions?.[state.profile]?.prot ?? 0);
   const qteOf = (ing) => (state.profile === 'lui' ? ing.qte_lui : ing.qte_elle) || ing.qte_elle || '';
@@ -117,6 +118,9 @@
         <div class="strip-head">
           <h2>La semaine</h2>
           <span>7 dîners · ${R.length} au total</span>
+        </div>
+        <div class="weeks">
+          ${[0, 1, 2, 3].map((w) => `<button class="wk ${state.week === w ? 'is-on' : ''}" data-week="${w}">S${w + 1}</button>`).join('')}
         </div>
         <div class="days">
           ${day.map((r, i) => `
@@ -317,6 +321,9 @@
 
     const day = e.target.closest('[data-day]');
     if (day) { state.day = Number(day.dataset.day); render(); return; }
+
+    const wk = e.target.closest('[data-week]');
+    if (wk) { state.week = Number(wk.dataset.week); localStorage.setItem('mj-week', state.week); render(); return; }
 
     const filt = e.target.closest('[data-filter]');
     if (filt) { state.filter = filt.dataset.filter; render(); return; }
