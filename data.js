@@ -14,12 +14,12 @@ window.RECIPES = [
   "technique": "Yaourt grec 0 % monté avec l'ail rôti à la place d'une sauce crème : même onctuosité, 4x moins de calories.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 62
+    "kcal": 624,
+    "prot": 63
    },
    "lui": {
-    "kcal": 798,
-    "prot": 77
+    "kcal": 784,
+    "prot": 74
    }
   },
   "ingredients": [
@@ -37,8 +37,8 @@ window.RECIPES = [
    },
    {
     "nom": "Pommes de terre",
-    "qte_elle": "195 g",
-    "qte_lui": "250 g",
+    "qte_elle": "300 g",
+    "qte_lui": "390 g",
     "rayon": "Fruits & légumes"
    },
    {
@@ -99,18 +99,18 @@ window.RECIPES = [
   "technique": "Laque gochujang-miel appliquée 2 min avant la sortie de poêle : croûte caramélisée de resto pour 40 kcal.",
   "portions": {
    "elle": {
-    "kcal": 640,
-    "prot": 34
+    "kcal": 616,
+    "prot": 38
    },
    "lui": {
-    "kcal": 804,
-    "prot": 40
+    "kcal": 780,
+    "prot": 45
    }
   },
   "ingredients": [
    {
     "nom": "Pavé de saumon",
-    "qte_elle": "130 g",
+    "qte_elle": "125 g",
     "qte_lui": "155 g",
     "rayon": "Poissonnerie"
    },
@@ -152,8 +152,8 @@ window.RECIPES = [
    },
    {
     "nom": "Avocat",
-    "qte_elle": "1/2 pièce",
-    "qte_lui": "1/2 pièce",
+    "qte_elle": "1/4 pièce",
+    "qte_lui": "1/3 pièce",
     "rayon": "Fruits & légumes"
    },
    {
@@ -190,12 +190,12 @@ window.RECIPES = [
   "technique": "Sauce faite à l'eau de cuisson des gnocchi + ricotta : le gras de l'amidon imite le beurre, sans beurre.",
   "portions": {
    "elle": {
-    "kcal": 638,
-    "prot": 24
+    "kcal": 624,
+    "prot": 31
    },
    "lui": {
-    "kcal": 796,
-    "prot": 30
+    "kcal": 780,
+    "prot": 37
    }
   },
   "ingredients": [
@@ -270,25 +270,25 @@ window.RECIPES = [
   "technique": "Cottage cheese en grosse cuillère froide sur le bœuf chaud : sensation de sauce épaisse pour 85 kcal/100 g.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 47
+    "kcal": 592,
+    "prot": 52
    },
    "lui": {
-    "kcal": 798,
-    "prot": 57
+    "kcal": 780,
+    "prot": 61
    }
   },
   "ingredients": [
    {
     "nom": "Steak haché 5 %",
-    "qte_elle": "140 g",
-    "qte_lui": "165 g",
+    "qte_elle": "120 g",
+    "qte_lui": "150 g",
     "rayon": "Boucherie"
    },
    {
     "nom": "Patate douce",
-    "qte_elle": "195 g",
-    "qte_lui": "245 g",
+    "qte_elle": "205 g",
+    "qte_lui": "255 g",
     "rayon": "Fruits & légumes"
    },
    {
@@ -299,8 +299,8 @@ window.RECIPES = [
    },
    {
     "nom": "Avocat",
-    "qte_elle": "1/2 pièce",
-    "qte_lui": "1/2 pièce",
+    "qte_elle": "1/4 pièce",
+    "qte_lui": "1/3 pièce",
     "rayon": "Fruits & légumes"
    },
    {
@@ -355,12 +355,12 @@ window.RECIPES = [
   "technique": "Lait de coco allégé réduit 5 min avec la pâte de curry : la réduction fait le gras perçu sans la crème.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 43
+    "kcal": 624,
+    "prot": 52
    },
    "lui": {
-    "kcal": 796,
-    "prot": 53
+    "kcal": 780,
+    "prot": 61
    }
   },
   "ingredients": [
@@ -372,8 +372,8 @@ window.RECIPES = [
    },
    {
     "nom": "Riz basmati cuit",
-    "qte_elle": "160 g",
-    "qte_lui": "205 g",
+    "qte_elle": "150 g",
+    "qte_lui": "200 g",
     "rayon": "Épicerie"
    },
    {
@@ -440,12 +440,12 @@ window.RECIPES = [
   "technique": "Keftas mises à cuire directement dans la sauce tomate : le gras de l'agneau parfume le plat, zéro huile ajoutée.",
   "portions": {
    "elle": {
-    "kcal": 642,
-    "prot": 48
+    "kcal": 598,
+    "prot": 41
    },
    "lui": {
-    "kcal": 804,
-    "prot": 59
+    "kcal": 780,
+    "prot": 48
    }
   },
   "ingredients": [
@@ -457,8 +457,8 @@ window.RECIPES = [
    },
    {
     "nom": "Pâtes complètes cuites",
-    "qte_elle": "82 g",
-    "qte_lui": "110 g",
+    "qte_elle": "130 g",
+    "qte_lui": "175 g",
     "rayon": "Épicerie"
    },
    {
@@ -526,7 +526,7 @@ window.RECIPES = [
    "Mélange l'agneau haché au cumin, paprika, sel, persil ciselé, forme 4 à 6 keftas par portion.",
    "Fais suer l'oignon et l'ail dans l'huile 4 min, verse le coulis et 100 ml d'eau, porte à frémissement.",
    "Pose les keftas dans la sauce, couvre, 12 min à feu doux en les retournant une fois. Ajoute les épinards les 2 dernières minutes.",
-   "CuIR les pâtes al dente, mélange-les à la sauce, sers avec le yaourt grec en cuillère au centre."
+   "Cuire les pâtes al dente, mélange-les à la sauce, sers avec le yaourt grec en cuillère au centre."
   ]
  },
  {
@@ -543,12 +543,12 @@ window.RECIPES = [
   "technique": "Purée montée au lait écrémé et à une noix de beurre moussé (pas fondu) : lecteur rondeur pour 30 kcal.",
   "portions": {
    "elle": {
-    "kcal": 642,
-    "prot": 54
+    "kcal": 624,
+    "prot": 49
    },
    "lui": {
-    "kcal": 804,
-    "prot": 66
+    "kcal": 780,
+    "prot": 58
    }
   },
   "ingredients": [
@@ -560,8 +560,8 @@ window.RECIPES = [
    },
    {
     "nom": "Pommes de terre",
-    "qte_elle": "180 g",
-    "qte_lui": "235 g",
+    "qte_elle": "300 g",
+    "qte_lui": "380 g",
     "rayon": "Fruits & légumes"
    },
    {
@@ -628,19 +628,19 @@ window.RECIPES = [
   "technique": "Béchamel au lait écrémé épaissie à la Maïzena au lieu du beurre-farine : l'onctuosité du gratin pour 60 % moins de calories.",
   "portions": {
    "elle": {
-    "kcal": 638,
-    "prot": 46
+    "kcal": 608,
+    "prot": 58
    },
    "lui": {
-    "kcal": 796,
-    "prot": 57
+    "kcal": 780,
+    "prot": 68
    }
   },
   "ingredients": [
    {
     "nom": "Émincé de dinde",
-    "qte_elle": "68 g",
-    "qte_lui": "83 g",
+    "qte_elle": "85 g",
+    "qte_lui": "105 g",
     "rayon": "Boucherie"
    },
    {
@@ -651,8 +651,8 @@ window.RECIPES = [
    },
    {
     "nom": "Pommes de terre",
-    "qte_elle": "310 g",
-    "qte_lui": "395 g",
+    "qte_elle": "190 g",
+    "qte_lui": "245 g",
     "rayon": "Fruits & légumes"
    },
    {
@@ -714,11 +714,11 @@ window.RECIPES = [
   "portions": {
    "elle": {
     "kcal": 636,
-    "prot": 52
+    "prot": 56
    },
    "lui": {
     "kcal": 796,
-    "prot": 63
+    "prot": 66
    }
   },
   "ingredients": [
@@ -804,12 +804,12 @@ window.RECIPES = [
   "technique": "Marinade au bicarbonate (1 pincée) + fécule : la viande reste tendre et la sauce nappe les nouilles sans huile supplémentaire.",
   "portions": {
    "elle": {
-    "kcal": 638,
-    "prot": 44
+    "kcal": 628,
+    "prot": 51
    },
    "lui": {
-    "kcal": 798,
-    "prot": 54
+    "kcal": 784,
+    "prot": 60
    }
   },
   "ingredients": [
@@ -901,12 +901,12 @@ window.RECIPES = [
   "technique": "Marinade au yaourt grec (au lieu d'huile + crème) : la protéine de lait attendrit la viande et crée une croûte épaisse.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 70
+    "kcal": 596,
+    "prot": 81
    },
    "lui": {
-    "kcal": 796,
-    "prot": 86
+    "kcal": 780,
+    "prot": 96
    }
   },
   "ingredients": [
@@ -960,8 +960,8 @@ window.RECIPES = [
    },
    {
     "nom": "Pain entier (2 tranches)",
-    "qte_elle": "72 g",
-    "qte_lui": "95 g",
+    "qte_elle": "70 g",
+    "qte_lui": "90 g",
     "rayon": "Boulangerie"
    },
    {
@@ -998,12 +998,12 @@ window.RECIPES = [
   "technique": "Sauce fromagère liée au cottage cheese mixé : 5 fois moins de gras qu'une béchamel crème pour une texture qui file.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 45
+    "kcal": 632,
+    "prot": 49
    },
    "lui": {
-    "kcal": 796,
-    "prot": 55
+    "kcal": 790,
+    "prot": 58
    }
   },
   "ingredients": [
@@ -1089,12 +1089,12 @@ window.RECIPES = [
   "technique": "Sauce réduite à couvert sans matière grasse : l'agneau rend son gras dans le bouillon parfumé, on n'ajoute que 5 g d'huile.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 36
+    "kcal": 660,
+    "prot": 42
    },
    "lui": {
-    "kcal": 796,
-    "prot": 45
+    "kcal": 820,
+    "prot": 50
    }
   },
   "ingredients": [
@@ -1106,20 +1106,20 @@ window.RECIPES = [
    },
    {
     "nom": "Semoule fine cuite",
-    "qte_elle": "125 g",
-    "qte_lui": "165 g",
+    "qte_elle": "110 g",
+    "qte_lui": "145 g",
     "rayon": "Épicerie"
    },
    {
     "nom": "Abricots secs",
-    "qte_elle": "0 g",
-    "qte_lui": "0 g",
+    "qte_elle": "25 g",
+    "qte_lui": "30 g",
     "rayon": "Épicerie"
    },
    {
     "nom": "Noix de cajou",
-    "qte_elle": "10 g",
-    "qte_lui": "12 g",
+    "qte_elle": "8 g",
+    "qte_lui": "10 g",
     "rayon": "Épicerie"
    },
    {
@@ -1192,12 +1192,12 @@ window.RECIPES = [
   "technique": "Base ricotta-citron à la place de la crème : acidité qui coupe le gras, on peut se passer de mozzarella en excès.",
   "portions": {
    "elle": {
-    "kcal": 644,
-    "prot": 47
+    "kcal": 648,
+    "prot": 51
    },
    "lui": {
-    "kcal": 804,
-    "prot": 59
+    "kcal": 808,
+    "prot": 60
    }
   },
   "ingredients": [
@@ -1227,8 +1227,8 @@ window.RECIPES = [
    },
    {
     "nom": "Roquette",
-    "qte_elle": "0 g",
-    "qte_lui": "0 g",
+    "qte_elle": "25 g",
+    "qte_lui": "30 g",
     "rayon": "Fruits & légumes"
    },
    {
@@ -1283,12 +1283,12 @@ window.RECIPES = [
   "technique": "Sauce montée au nuoc-mâm + jus de citron vert + une pointe de sucre : l'umami remplace le beurre dans le sauté.",
   "portions": {
    "elle": {
-    "kcal": 638,
-    "prot": 48
+    "kcal": 632,
+    "prot": 55
    },
    "lui": {
-    "kcal": 796,
-    "prot": 58
+    "kcal": 788,
+    "prot": 65
    }
   },
   "ingredients": [
@@ -1374,31 +1374,31 @@ window.RECIPES = [
   "technique": "Burrata posée hors du feu sur les pâtes chaudes : elle fond en sauce sans ajout de crème.",
   "portions": {
    "elle": {
-    "kcal": 638,
-    "prot": 22
+    "kcal": 656,
+    "prot": 33
    },
    "lui": {
-    "kcal": 798,
-    "prot": 27
+    "kcal": 820,
+    "prot": 39
    }
   },
   "ingredients": [
    {
     "nom": "Pâtes fraîches (tagliatelle)",
-    "qte_elle": "145 g",
-    "qte_lui": "185 g",
+    "qte_elle": "100 g",
+    "qte_lui": "130 g",
     "rayon": "Épicerie"
    },
    {
     "nom": "Tomates cerises",
-    "qte_elle": "270 g",
-    "qte_lui": "315 g",
+    "qte_elle": "220 g",
+    "qte_lui": "280 g",
     "rayon": "Fruits & légumes"
    },
    {
     "nom": "Burrata",
-    "qte_elle": "0 g",
-    "qte_lui": "0 g",
+    "qte_elle": "70 g",
+    "qte_lui": "90 g",
     "rayon": "Crèmerie"
    },
    {
@@ -1421,8 +1421,8 @@ window.RECIPES = [
    },
    {
     "nom": "Parmesan râpé",
-    "qte_elle": "15 g",
-    "qte_lui": "17 g",
+    "qte_elle": "8 g",
+    "qte_lui": "10 g",
     "rayon": "Crèmerie"
    },
    {
@@ -1453,12 +1453,12 @@ window.RECIPES = [
   "technique": "Marinade yaourt-paprika + sauce blanche au yaourt grec : le goût du kebab du quartier pour 1/3 des calories.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 55
+    "kcal": 654,
+    "prot": 66
    },
    "lui": {
-    "kcal": 796,
-    "prot": 69
+    "kcal": 818,
+    "prot": 78
    }
   },
   "ingredients": [
@@ -1470,8 +1470,8 @@ window.RECIPES = [
    },
    {
     "nom": "Riz basmati cuit",
-    "qte_elle": "125 g",
-    "qte_lui": "160 g",
+    "qte_elle": "105 g",
+    "qte_lui": "140 g",
     "rayon": "Épicerie"
    },
    {
@@ -1481,10 +1481,10 @@ window.RECIPES = [
     "rayon": "Crèmerie"
    },
    {
-    "nom": "Paprika fumé",
-    "qte_elle": "4 g",
-    "qte_lui": "5 g",
-    "rayon": "Épicerie"
+    "nom": "Avocat",
+    "qte_elle": "1/3 pièce",
+    "qte_lui": "1/2 pièce",
+    "rayon": "Fruits & légumes"
    },
    {
     "nom": "Cumin moulu",
@@ -1556,12 +1556,12 @@ window.RECIPES = [
   "technique": "Steak de dinde avec oignon râpé dans la viande : la pectine de l'oignon garde le steak juteux sans gras ajouté.",
   "portions": {
    "elle": {
-    "kcal": 642,
-    "prot": 57
+    "kcal": 664,
+    "prot": 67
    },
    "lui": {
-    "kcal": 800,
-    "prot": 74
+    "kcal": 820,
+    "prot": 79
    }
   },
   "ingredients": [
@@ -1602,7 +1602,7 @@ window.RECIPES = [
     "rayon": "Fruits & légumes"
    },
    {
-    "nom": "Sauce burger sans porc aux herbes",
+    "nom": "Sauce burger du commerce aux herbes",
     "qte_elle": "18 ml",
     "qte_lui": "25 ml",
     "rayon": "Épicerie"
@@ -1653,12 +1653,12 @@ window.RECIPES = [
   "technique": "Pois chiches écrasés à la cuillère dans la sauce : l'amidon épaissit et rend le curry crémeux pour 0 kcal.",
   "portions": {
    "elle": {
-    "kcal": 638,
-    "prot": 24
+    "kcal": 624,
+    "prot": 26
    },
    "lui": {
-    "kcal": 798,
-    "prot": 30
+    "kcal": 780,
+    "prot": 31
    }
   },
   "ingredients": [
@@ -1677,7 +1677,7 @@ window.RECIPES = [
    {
     "nom": "Riz basmati cuit",
     "qte_elle": "130 g",
-    "qte_lui": "165 g",
+    "qte_lui": "175 g",
     "rayon": "Épicerie"
    },
    {
@@ -1753,22 +1753,22 @@ window.RECIPES = [
    "mijoté",
    "week-end"
   ],
-  "technique": "Déglacage au bouillon + vinaigre balsamique : l'acidité et l'umami donnent la profondeur d'un mijoté très longuement réduit.",
+  "technique": "Déglacage au bouillon + vinaigre balsamique : l'acidité et l'umami donnent la profondeur d'un mijoté de restaurant.",
   "portions": {
    "elle": {
-    "kcal": 642,
-    "prot": 49
+    "kcal": 658,
+    "prot": 52
    },
    "lui": {
-    "kcal": 804,
+    "kcal": 820,
     "prot": 61
    }
   },
   "ingredients": [
    {
     "nom": "Bœuf à bourguignon (rumsteck en cubes)",
-    "qte_elle": "120 g",
-    "qte_lui": "145 g",
+    "qte_elle": "150 g",
+    "qte_lui": "185 g",
     "rayon": "Boucherie"
    },
    {
@@ -1821,8 +1821,8 @@ window.RECIPES = [
    },
    {
     "nom": "Pâtes complètes cuites",
-    "qte_elle": "84 g",
-    "qte_lui": "115 g",
+    "qte_elle": "150 g",
+    "qte_lui": "200 g",
     "rayon": "Épicerie"
    },
    {
@@ -1843,8 +1843,7 @@ window.RECIPES = [
    "Dans la même cocotte, fais dorer carottes, oignons et champignons 5 min. Déglace au vinaigre balsamique, ajoute ail, soja et coulis.",
    "Remets la viande, mouille au bouillon (600 ml d'eau), couvre et laisse mijoter 60 à 70 min à frémissement.",
    "Cuire les pâtes. Sers le mijoté sur les pâtes avec beaucoup de persil : la sauce doit être courte et brillante."
-  ],
-  "tech": "Déglacage au bouillon + vinaigre balsamique : l'acidité et l'umami donnent la profondeur d'un mijoté de restaurant."
+  ]
  },
  {
   "id": "filet-sole-grenobloise",
@@ -1860,12 +1859,12 @@ window.RECIPES = [
   "technique": "Beurre noisette moussé nappeur : 8 g suffisent à donner un goût de beurre roulé à tout le plat.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 52
+    "kcal": 626,
+    "prot": 50
    },
    "lui": {
-    "kcal": 798,
-    "prot": 63
+    "kcal": 786,
+    "prot": 59
    }
   },
   "ingredients": [
@@ -1877,8 +1876,8 @@ window.RECIPES = [
    },
    {
     "nom": "Patate douce",
-    "qte_elle": "200 g",
-    "qte_lui": "260 g",
+    "qte_elle": "270 g",
+    "qte_lui": "350 g",
     "rayon": "Fruits & légumes"
    },
    {
@@ -1895,8 +1894,8 @@ window.RECIPES = [
    },
    {
     "nom": "Câpres",
-    "qte_elle": "0 g",
-    "qte_lui": "0 g",
+    "qte_elle": "8 g",
+    "qte_lui": "10 g",
     "rayon": "Épicerie"
    },
    {
@@ -1907,8 +1906,8 @@ window.RECIPES = [
    },
    {
     "nom": "Farine (blé T55)",
-    "qte_elle": "0 g",
-    "qte_lui": "0 g",
+    "qte_elle": "10 g",
+    "qte_lui": "12 g",
     "rayon": "Épicerie"
    },
    {
@@ -1945,31 +1944,31 @@ window.RECIPES = [
   "technique": "Cuisson au four sur plaque brûlante + un voile d'huile au pinceau : croûte de friture pour 1/5 des calories.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 33
+    "kcal": 664,
+    "prot": 39
    },
    "lui": {
-    "kcal": 798,
-    "prot": 42
+    "kcal": 820,
+    "prot": 46
    }
   },
   "ingredients": [
    {
     "nom": "Pois chiches cuits (bocal)",
-    "qte_elle": "175 g",
-    "qte_lui": "220 g",
+    "qte_elle": "185 g",
+    "qte_lui": "235 g",
     "rayon": "Épicerie"
    },
    {
     "nom": "Pain entier (2 tranches)",
-    "qte_elle": "62 g",
-    "qte_lui": "82 g",
+    "qte_elle": "60 g",
+    "qte_lui": "80 g",
     "rayon": "Boulangerie"
    },
    {
     "nom": "Yaourt grec 0 %",
-    "qte_elle": "105 g",
-    "qte_lui": "135 g",
+    "qte_elle": "100 g",
+    "qte_lui": "125 g",
     "rayon": "Crèmerie"
    },
    {
@@ -2016,8 +2015,8 @@ window.RECIPES = [
    },
    {
     "nom": "Farine (blé T55)",
-    "qte_elle": "0 g",
-    "qte_lui": "0 g",
+    "qte_elle": "10 g",
+    "qte_lui": "12 g",
     "rayon": "Épicerie"
    },
    {
@@ -2048,12 +2047,12 @@ window.RECIPES = [
   "technique": "Pesto allégé au bouillon de cuisson des pâtes au lieu de 10 cl d'huile : goût identique, 300 kcal en moins.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 57
+    "kcal": 624,
+    "prot": 62
    },
    "lui": {
-    "kcal": 796,
-    "prot": 71
+    "kcal": 780,
+    "prot": 73
    }
   },
   "ingredients": [
@@ -2133,12 +2132,12 @@ window.RECIPES = [
   "technique": "Paprika fumé + pois chiches grillés sur plaque brûlante : le goût fumé et croustillant remplace le gras de la charcuterie, pour 0 kcal.",
   "portions": {
    "elle": {
-    "kcal": 638,
-    "prot": 54
+    "kcal": 616,
+    "prot": 72
    },
    "lui": {
-    "kcal": 798,
-    "prot": 68
+    "kcal": 780,
+    "prot": 85
    }
   },
   "ingredients": [
@@ -2150,14 +2149,14 @@ window.RECIPES = [
    },
    {
     "nom": "Tomates cerises",
-    "qte_elle": "195 g",
-    "qte_lui": "240 g",
+    "qte_elle": "280 g",
+    "qte_lui": "350 g",
     "rayon": "Fruits & légumes"
    },
    {
     "nom": "Pois chiches cuits (bocal)",
-    "qte_elle": "130 g",
-    "qte_lui": "165 g",
+    "qte_elle": "260 g",
+    "qte_lui": "330 g",
     "rayon": "Épicerie"
    },
    {
@@ -2212,12 +2211,12 @@ window.RECIPES = [
   "technique": "Sauce moutarde-feuille à l'eau des pâtes et au yaourt grec hors du feu : crémeuse sans crème qui tranche.",
   "portions": {
    "elle": {
-    "kcal": 642,
-    "prot": 61
+    "kcal": 648,
+    "prot": 62
    },
    "lui": {
-    "kcal": 804,
-    "prot": 74
+    "kcal": 812,
+    "prot": 73
    }
   },
   "ingredients": [
@@ -2229,8 +2228,8 @@ window.RECIPES = [
    },
    {
     "nom": "Pâtes fraîches (tagliatelle)",
-    "qte_elle": "73 g",
-    "qte_lui": "96 g",
+    "qte_elle": "120 g",
+    "qte_lui": "160 g",
     "rayon": "Épicerie"
    },
    {
@@ -2309,25 +2308,25 @@ window.RECIPES = [
   "technique": "Lait écrémé + une lichette de mozzarella en surface : le croustillant du dessus fait 'gras', l'intérieur est léger.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 55
+    "kcal": 596,
+    "prot": 67
    },
    "lui": {
-    "kcal": 796,
-    "prot": 70
+    "kcal": 780,
+    "prot": 79
    }
   },
   "ingredients": [
    {
     "nom": "Thon en boîte au naturel (égoutté)",
-    "qte_elle": "130 g",
-    "qte_lui": "165 g",
+    "qte_elle": "120 g",
+    "qte_lui": "150 g",
     "rayon": "Épicerie"
    },
    {
     "nom": "Pommes de terre",
-    "qte_elle": "240 g",
-    "qte_lui": "310 g",
+    "qte_elle": "180 g",
+    "qte_lui": "230 g",
     "rayon": "Fruits & légumes"
    },
    {
@@ -2338,8 +2337,8 @@ window.RECIPES = [
    },
    {
     "nom": "Mozzarella râpée light",
-    "qte_elle": "48 g",
-    "qte_lui": "59 g",
+    "qte_elle": "60 g",
+    "qte_lui": "75 g",
     "rayon": "Crèmerie"
    },
    {
@@ -2362,8 +2361,8 @@ window.RECIPES = [
    },
    {
     "nom": "Origan séché",
-    "qte_elle": "0 g",
-    "qte_lui": "0 g",
+    "qte_elle": "1 pincée",
+    "qte_lui": "1 pincée",
     "rayon": "Épicerie"
    },
    {
@@ -2400,12 +2399,12 @@ window.RECIPES = [
   "technique": "Poivrons rôtis séparément puis ajoutés à la fin : ils gardent leur suc et donnent une sauce plus concentrée.",
   "portions": {
    "elle": {
-    "kcal": 636,
-    "prot": 37
+    "kcal": 660,
+    "prot": 48
    },
    "lui": {
-    "kcal": 798,
-    "prot": 47
+    "kcal": 820,
+    "prot": 57
    }
   },
   "ingredients": [
@@ -2429,8 +2428,8 @@ window.RECIPES = [
    },
    {
     "nom": "Riz basmati cuit",
-    "qte_elle": "110 g",
-    "qte_lui": "145 g",
+    "qte_elle": "135 g",
+    "qte_lui": "180 g",
     "rayon": "Épicerie"
    },
    {
@@ -2491,25 +2490,25 @@ window.RECIPES = [
   "technique": "Marinade citron-herbes sans huile, viande très chaudes et courte sur le gril : le jus reste dedans.",
   "portions": {
    "elle": {
-    "kcal": 644,
-    "prot": 45
+    "kcal": 648,
+    "prot": 49
    },
    "lui": {
-    "kcal": 804,
-    "prot": 56
+    "kcal": 810,
+    "prot": 58
    }
   },
   "ingredients": [
    {
     "nom": "Sauté d'agneau maigre",
-    "qte_elle": "110 g",
-    "qte_lui": "140 g",
+    "qte_elle": "150 g",
+    "qte_lui": "185 g",
     "rayon": "Boucherie"
    },
    {
     "nom": "Quinoa cuit",
-    "qte_elle": "71 g",
-    "qte_lui": "96 g",
+    "qte_elle": "140 g",
+    "qte_lui": "185 g",
     "rayon": "Épicerie"
    },
    {
