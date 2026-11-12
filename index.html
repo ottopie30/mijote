@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#16150f">
+<title>Mijoté — la sèche qui a du goût</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ============ HEADER ============ -->
+  <header class="topbar" id="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <span class="brand-name">Mijoté</span>
+    </div>
+    <div class="profile-switch" role="group" aria-label="Profil calorique">
+      <button class="pbtn is-on" data-profile="elle" aria-pressed="true">
+        <span class="pbtn-name">Elle</span><span class="pbtn-kcal">1600</span>
+      </button>
+      <button class="pbtn" data-profile="lui" aria-pressed="false">
+        <span class="pbtn-name">Lui</span><span class="pbtn-kcal">2000</span>
+      </button>
+      <span class="pbtn-thumb" aria-hidden="true"></span>
+    </div>
+  </header>
+
+  <main id="screen"></main>
+
+  <!-- ============ iOS-like tab bar ============ -->
+  <nav class="tabbar" aria-label="Navigation principale">
+    <button class="tab is-on" data-go="today">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2 3.8 10v10.2h6V14h4.4v6.2h6V10z"/></svg>
+      <span>Ce soir</span>
+    </button>
+    <button class="tab" data-go="week">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h16v15H4zM8 3v4M16 3v4M4 10h16"/></svg>
+      <span>La semaine</span>
+    </button>
+    <button class="tab" data-go="shop">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16l-1.4 13H5.4zM9 6V4.6a3 3 0 0 1 6 0V6"/></svg>
+      <span>Courses</span>
+    </button>
+    <button class="tab" data-go="trends">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 17.5 9 11l3.4 3.2L20 5.5M20 5.5h-5M20 5.5v5"/></svg>
+      <span>Tendances</span>
+    </button>
+  </nav>
+
+  <!-- ============ RECIPE SHEET ============ -->
+  <div class="sheet-scrim" id="scrim" hidden></div>
+  <article class="sheet" id="sheet" hidden aria-modal="true" role="dialog" aria-label="Recette">
+    <header class="sheet-head">
+      <button class="icon-btn" id="sheet-close" aria-label="Fermer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <span class="sheet-kicker" id="sheet-kicker">Recette</span>
+      <button class="icon-btn" id="sheet-fav" aria-label="Ajouter aux favoris" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7.5-4.7-7.5-9.6A4.4 4.4 0 0 1 12 7.4a4.4 4.4 0 0 1 7.5 3C19.5 15.3 12 20 12 20z"/></svg>
+      </button>
+    </header>
+    <div class="sheet-body" id="sheet-body"></div>
+  </article>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
