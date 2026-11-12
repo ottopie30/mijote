@@ -79,6 +79,20 @@
     return out.join(' · ');
   }
 
+
+  /* --------------------------------------------------- visuel de la carte */
+  function hue(id) {
+    let h = 0; for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) % 360;
+    return h;
+  }
+  function plateArt(r, size) {
+    const h = hue(r.id);
+    const letter = (r.nom || '?').replace(/[^A-Za-zÀ-ÿ]/g, '').charAt(0).toUpperCase();
+    return `<div class="plate-art ${size}" style="--h:${h}" aria-hidden="true">
+      <span class="pa-ring"></span><span class="pa-letter">${esc(letter)}</span>
+    </div>`;
+  }
+
   function saveFavs() { localStorage.setItem('mj-favs', JSON.stringify(state.favs)); }
   function saveChecked() { localStorage.setItem('mj-checked', JSON.stringify(state.checked)); }
 
@@ -92,6 +106,7 @@
       <section class="tonight">
         <p class="eyebrow">${state.profile === 'elle' ? 'Elle · 1600 kcal' : 'Lui · 2000 kcal'} · ce soir</p>
         <div class="tonight-card">
+          ${rec.photo ? `<div class="tonight-photo" style="background-image:url('img/${esc(rec.photo)}')"></div>` : plateArt(rec, 'hero')}
           <div class="tonight-top">
             <span class="tonight-day">${esc(JOURS[state.day])} · ${esc(rec.temps_min || 25)} min</span>
             <span class="tonight-time">
@@ -134,7 +149,7 @@
             const idx = day.indexOf(r);
             return `
             <button class="row" data-day="${idx}" data-open="${esc(r.id)}">
-              <span class="row-num">${String(idx + 1).padStart(2, '0')}</span>
+              ${r.photo ? `<img class="row-thumb" src="img/${esc(r.photo)}" alt="" loading="lazy">` : plateArt(r, 'thumb')}
               <span class="row-main">
                 <span class="row-title">${esc(r.nom)}</span>
                 <span class="row-sub">${esc(JOURS[idx])} · ${esc(r.temps_min)} min · ${(r.tags || []).slice(0, 2).join(' · ')}</span>
@@ -167,7 +182,7 @@
       <div class="list">
         ${list.length ? list.map((r) => `
           <button class="row" data-open="${esc(r.id)}">
-            <span class="row-num">${String(R.indexOf(r) + 1).padStart(2, '0')}</span>
+            ${r.photo ? `<img class="row-thumb" src="img/${esc(r.photo)}" alt="" loading="lazy">` : plateArt(r, 'thumb')}
             <span class="row-main">
               <span class="row-title">${esc(r.nom)}</span>
               <span class="row-sub">${esc(r.temps_min)} min · ${esc(r.difficulte)} · ${(r.tags || []).slice(0, 2).join(' · ')}</span>
@@ -233,7 +248,8 @@
         </div>`).join('')}
       ${TECH.length ? `
         <h2 class="h2" style="margin-top:26px">Les 8 gestes</h2>
-        ${TECH.map((t) => `<div class="trend"><div class="trend-top"><span class="trend-name">${esc(t.nom || t.name || '')}</span></div><p class="trend-desc">${esc(t.detail || t.explication || t.description || '')}</p></div>`).join('')}` : ''}`;
+        ${TECH.map((t) => `<div class="trend"><div class="trend-top"><span class="trend-name">${esc(t.nom || t.name || '')}</span></div><p class="trend-desc">${esc(t.detail || t.explication || t.description || '')}</p></div>`).join('')}` : ''}
+      <p class="credits">Photos : Openverse / Wikimedia Commons, sous licences Creative Commons — détail dans <code>credits.json</code>. Les liens TikTok ouvrent une recherche, ce ne sont pas des vidéos d'origine.</p>`;
   }
 
   /* --------------------------------------------------------------- sheet */
@@ -244,9 +260,11 @@
     const fav = state.favs.includes(id);
     $('#sheet-fav').setAttribute('aria-pressed', String(fav));
     $('#sheet-body').innerHTML = `
+      ${r.photo ? `<div class="sheet-hero" style="background-image:url('img/${esc(r.photo)}')"></div>` : plateArt(r, 'sheet')}
       <h1 class="recipe-title">${esc(r.nom)}</h1>
       <div class="recipe-meta">
         <span>${esc(r.difficulte)}</span>
+        <span>${r.temps_min <= 20 ? 'express' : r.temps_min >= 40 ? 'week-end' : 'semaine'}</span>
         <span>${esc(r.portions?.elle?.kcal)} / ${esc(r.portions?.lui?.kcal)} kcal</span>
       </div>
       ${r.technique ? `<div class="tech-line"><b>Le geste</b>${esc(r.technique)}</div>` : ''}
@@ -270,7 +288,12 @@
         ${(r.ingredients || []).map((i) => `<li class="ing"><span>${esc(i.nom)}</span><b>${esc(qteOf(i))}</b></li>`).join('')}
       </ul>
       <h2 class="h2" style="margin-top:22px">On cuisine</h2>
-      <ol class="steps">${(r.etapes || []).map((e) => `<li>${esc(e)}</li>`).join('')}</ol>`;
+      <ol class="steps">${(r.etapes || []).map((e) => `<li>${esc(e)}</li>`).join('')}</ol>
+      ${r.inspiration ? `<p class="inspiration"><b>Inspiration virale</b>${esc(r.inspiration)}</p>` : ''}
+      <a class="tiktok-btn" href="${esc(r.tiktok)}" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4v9.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 4c.4 2.6 2 4.2 4.6 4.6"/></svg>
+        Voir des versions sur TikTok
+      </a>`;
     sheet.hidden = false;
     scrim.hidden = false;
     document.body.style.overflow = 'hidden';
@@ -285,8 +308,22 @@
   /* -------------------------------------------------------------- render */
   const views = { today: viewToday, week: viewWeek, shop: viewShop, trends: viewTrends };
 
+  function countUp(el, to, suffix) {
+    if (!el || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const t0 = performance.now(), dur = 520;
+    const step = (t) => {
+      const k = Math.min(1, (t - t0) / dur);
+      const e = 1 - Math.pow(1 - k, 3);
+      el.textContent = Math.round(to * e) + suffix;
+      if (k < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
   function render() {
     screen.innerHTML = views[state.tab]();
+    const big = screen.querySelector('.kcal-big');
+    if (big) { const v = parseInt(big.textContent, 10) || 0; big.textContent = '0'; countUp(big, v, ''); }
     document.querySelectorAll('.tab').forEach((t) => t.classList.toggle('is-on', t.dataset.go === state.tab));
     document.querySelectorAll('.pbtn').forEach((b) => {
       const on = b.dataset.profile === state.profile;

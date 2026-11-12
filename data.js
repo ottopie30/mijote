@@ -83,7 +83,10 @@ window.RECIPES = [
    "Entaille le poulet, glisse les quartiers de citron sous la peau, sale et poivre. Pose-le sur la plaque à côté des patates, 18 à 20 min au four.",
    "Écrase l'ail rôti, mélange-le au yaourt grec avec le jus d'un demi-citron, du sel et le persil ciselé.",
    "Sors la plaque, laisse reposer 3 min, nappe de yaourt à l'ail et sers avec le jus de cuisson versé dessus."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Poulet+r%C3%B4ti+au+citron+confit+et+yaourt+%C3%A0+l%27ail",
+  "inspiration": "Greek yogurt Jell-O protéiné — TikTok @chef.erinmorley (2026, ~140 kcal / 25 g protéines)"
  },
  {
   "id": "saumon-laque-gochujang",
@@ -174,7 +177,10 @@ window.RECIPES = [
    "Mélange gochujang, miel et sauce soja. Saisis le saumon côté peau 3 min dans une poêle bien chaude, retourne-le, verse la laque et laisse réduire 2 min en arrosant.",
    "Tranche le concombre en fines rondelles, sale-le 5 min et presse-le pour sortir l'eau.",
    "Dresse le riz, le saumon, le concombre, l'avocat en tranches et un zigzag de mayo allégée, puis sème le sésame torréfié à sec."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Saumon+laqu%C3%A9+gochujang%2C+riz+et+concombre+croquant",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "gnocchi-ricotta-tomates-roties",
@@ -253,7 +259,10 @@ window.RECIPES = [
    "Fais cuire les gnocchi 2 min dans l'eau bouillante salée, garde une louche d'eau de cuisson.",
    "Écrase les tomates rôties et l'ail, ajoute la ricotta et deux cuillères d'eau de cuisson hors du feu : la sauce doit être nappante.",
    "Mélange aux gnocchi, parmesan râpé dessus et basilic déchiré au dernier moment."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Gnocchi+fondants+%C3%A0+la+ricotta+et+tomates+r%C3%B4ties",
+  "inspiration": ""
  },
  {
   "id": "boeuf-hache-taco-bowl",
@@ -339,7 +348,10 @@ window.RECIPES = [
    "Saisis le bœuf haché à feu vif, casse-le bien, ajoute cumin, paprika, poivre et une pincée de sucre : laisse caraméliser 2 min sans remuer.",
    "Mix rapidement cottage cheese, jus de citron vert et sel pour une crème épaisse.",
    "Dresse patate douce, bœuf, cottage cheese, avocat en lamelles et coriandre fraîche."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Bol+taco+de+b%C5%93uf%2C+patate+douce+r%C3%B4tie+et+cottage+cheese",
+  "inspiration": "High-protein hot honey beef/cottage cheese bowl (version veggie) — TikTok — trend 'protein bowls', crédité à Gracie Norton (2024), toujours massif en 2026 (S"
  },
  {
   "id": "curry-crevettes-coco",
@@ -424,7 +436,10 @@ window.RECIPES = [
    "Ajoute la pâte de curry rouge, remue 30 s jusqu'à ce que ça embaume, puis verse le lait de coco allégé.",
    "Laisse réduire 4 min à petits bouillons, ajoute les crevettes et le soja, 3 min : elles doivent être juste roses.",
    "Servez sur le riz, trait de citron vert et coriandre ciselée."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Crevettes+au+curry+rouge+et+lait+de+coco%2C+riz+parfum%C3%A9",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "rigatoni-kefta-epinards",
@@ -527,7 +542,10 @@ window.RECIPES = [
    "Fais suer l'oignon et l'ail dans l'huile 4 min, verse le coulis et 100 ml d'eau, porte à frémissement.",
    "Pose les keftas dans la sauce, couvre, 12 min à feu doux en les retournant une fois. Ajoute les épinards les 2 dernières minutes.",
    "Cuire les pâtes al dente, mélange-les à la sauce, sers avec le yaourt grec en cuillère au centre."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Keftas+d%27agneau+en+sauce+tomate+au+yaourt%2C+rigatoni",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "cabillaud-croute-herbes",
@@ -612,7 +630,10 @@ window.RECIPES = [
    "Four à 200 °C. Mélange chapelure, persil haché, zeste de citron, sel et poivre.",
    "Enduit le cabillaud de moutarde, presse la croûte dessus et arrose d'un filet d'huile.",
    "12 min au four jusqu'à ce que la croûte dore. Sers sur la purée avec le citron en quartiers."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Cabillaud+en+cro%C3%BBte+de+herbes+et+pur%C3%A9e+de+pommes+de+terre",
+  "inspiration": ""
  },
  {
   "id": "endives-dinde-gratin",
@@ -697,7 +718,10 @@ window.RECIPES = [
    "Béchamel : délaye la Maïzena dans le lait froid, chauffe en fouettant jusqu'à épaississement (3 min), ajoute moutarde, muscade, sel, poivre.",
    "Roule chaque demi-endive dans une tranche d'émincé de dinde, range dans un plat avec les pommes de terre en rondelles.",
    "Nappe de béchamel, couvre de mozzarella râpée, 15 min au four puis 3 min en position gril."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Endives+gratin%C3%A9es+%C3%A0+la+dinde%2C+b%C3%A9chamel+l%C3%A9g%C3%A8re",
+  "inspiration": ""
  },
  {
   "id": "cabillaud-miso-laquee",
@@ -788,7 +812,10 @@ window.RECIPES = [
    "Mélange miso, miel, soja, vinaigre de riz et gingembre râpé. Pose le cabillaud sur une feuille de papier cuisson, badigeonne de la moitié du glaçage.",
    "8 min au four, badigeonne du reste, 4 min de plus en position gril : la laque doit briller et coller.",
    "Riz cuit, brocoli, cabillaud, sésame torréfié et un trait de soja cru."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Cabillaud+laqu%C3%A9+au+miso%2C+brocoli+r%C3%B4ti+et+riz",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "boeuf-nouilles-sautees",
@@ -885,7 +912,10 @@ window.RECIPES = [
    "Cuire les pâtes, garde 1 louche d'eau de cuisson. Saisis le bœuf 1 min 30 à feu maximum dans une poêle très chaude, retire-le.",
    "Fais sauter oignon, ail, gingembre, poivrons et chou émincé 4 min à feu vif.",
    "Remets le bœuf, ajoute les nouilles, le reste de soja, la sriracha et un peu d'eau de cuisson : mélange 1 min jusqu'à ce que la sauce enrobe tout."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=B%C5%93uf+saut%C3%A9+aux+nouilles%2C+poivrons+et+sauce+soja-gingembre",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "dinde-tikka-cauliflower",
@@ -982,7 +1012,10 @@ window.RECIPES = [
    "Chou-fleur en bouquets, huile, sel. Dispose dinde et chou-fleur sur la plaque, 18 à 20 min en retournant le chou à mi-cuisson.",
    "Yaourt restant + menthe ciselée + pincée de sel : sauce à la menthe.",
    "Sers avec le pain entier toasté, la sauce froide sur la dinde brûlante."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Dinde+tikka+r%C3%B4tie+au+chou-fleur%2C+yaourt+%C3%A0+la+menthe",
+  "inspiration": "Yaourt glacé / tiramisu au yaourt (trend japonais 2 ingrédients) — TikTok @twisted, @brookelmason — Japanese 2-ingredient yoghurt cheesecake, 2026"
  },
  {
   "id": "gratin-mac-cheese-courgettes",
@@ -1073,7 +1106,10 @@ window.RECIPES = [
    "Mix cottage cheese, lait et Maïzena jusqu'à obtenir une crème parfaitement lisse.",
    "Chauffe cette crème doucement, ajoute la moutarde, le cheddar râpé, le paprika et l'ail : remue jusqu'à ce que ça file.",
    "Mélange aux pâtes et à la courgette, verse dans un plat, chapelure + 2 min sous le gril."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Mac+%26+cheese+prot%C3%A9in%C3%A9+aux+courgettes+et+cheddar+fondant",
+  "inspiration": "High-protein hot honey beef/cottage cheese bowl (version veggie) — TikTok — trend 'protein bowls', crédité à Gracie Norton (2024), toujours massif en 2026 (S"
  },
  {
   "id": "agneau-tajine-abricots",
@@ -1176,7 +1212,10 @@ window.RECIPES = [
    "Fais suer oignons, ail et gingembre 4 min, ajoute cumin, poivre, cuillère de coulis la cuillère, puis 250 ml d'eau.",
    "Remets l'agneau, couvre, 25 min à feu doux. Ajoute les abricots en dés les 5 dernières minutes avec le miel : la sauce doit être sirupeuse.",
    "Hydrate la semoule, sers l'agneau dessus, noix de cajou torréfiées et coriandre fraîche."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Tajine+d%27agneau+aux+abricots+et+amandes%2C+semoule+fine",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "pizza-blanche-poulet-ricotta",
@@ -1267,7 +1306,10 @@ window.RECIPES = [
    "Mix ricotta, ail écrasé, zeste de citron et sel, étale en laissant le bord libre.",
    "Ajoute poulet cuit émincé, tomates cerises coupées en deux et mozzarella en morceaux.",
    "10 à 12 min au four (le dessous doit être croustillant), puis roquette, parmesan et filet d'huile hors du four."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Pizza+blanche+ricotta-citron%2C+poulet+r%C3%B4ti+et+roquette",
+  "inspiration": "Cottage cheese pizza dip — TikTok @dr.rachelpaul, repris partout (Canadian Grocer fév 2026)"
  },
  {
   "id": "crevettes-thai-citron-vert",
@@ -1358,7 +1400,10 @@ window.RECIPES = [
    "Coupe le chou chinois en grosses lanières, saisis-le 3 min à feu vif dans l'huile : il doit rester croquant et légèrement brûlé sur les bords.",
    "Ajoute ail et gingembre 30 s, puis les crevettes, 2 min 30.",
    "Verse la sauce, laisse 30 s à feu vif pour la faire briller, sers sur le riz avec la coriandre."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Crevettes+citron+vert-coriandre%2C+riz+gluant+et+pak-cho%C3%AF",
+  "inspiration": ""
  },
  {
   "id": "pates-burrata-tomates-roties",
@@ -1437,7 +1482,10 @@ window.RECIPES = [
    "Cuire les pâtes fraîches 3 min, garde une louche d'eau.",
    "Écrase les tomates rôties dans la poêle, ajoute les pâtes et un peu d'eau de cuisson : mélange à feu vif 1 min.",
    "Hors du feu, déchire la burrata dessus, parmesan et basilic. Sel, poivre, on mélange devant l'assiette."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=P%C3%A2tes+fra%C3%AEches%2C+tomates+r%C3%B4ties+et+burrata+fondante",
+  "inspiration": ""
  },
  {
   "id": "bowl-poulet-facon-kebab",
@@ -1540,7 +1588,10 @@ window.RECIPES = [
    "Saisis le poulet 6 à 8 min à feu vif dans l'huile : les bords doivent être bien colorés.",
    "Sauce blanche : reste du yaourt, ail écrasé, citron, sel, une goutte d'eau pour la rendre nappante.",
    "Bol : riz, poulet, tomates, oignon rouge en demi-lunes, sauce blanche, oignons frits et piment."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Bol+kebab+%3A+poulet+marin%C3%A9%2C+riz%2C+sauce+blanche+et+oignons+frits",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "dinde-burger-maison",
@@ -1637,7 +1688,10 @@ window.RECIPES = [
    "Fais croustiller l'émincé de dinde fumé à sec 3 min, retire-le, garde la poêle.",
    "Saisis le steak 3 min par face : il doit être bien marqué. Pose le cheddar dessus les 30 dernières secondes, à couvert.",
    "Toaste les buns, monte avec sauce aux herbes, salade, steak, cheddar, émincé de dinde croustillant, tomates, cornichons en rondelles."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Burger+de+dinde%2C+cheddar+fondant+et+sauce+aux+herbes",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "curry-pois-chiches-epinards",
@@ -1740,7 +1794,10 @@ window.RECIPES = [
    "Verse le coulis, porte à ébullition, ajoute les pois chiches et le lait de coco allégé. 8 min à feu moyen.",
    "Écrase une louche de pois chiches dans la sauce pour la lier. Ajoute les épinards, couvre 2 min.",
    "Sers sur le riz, jus de citron et coriandre."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Curry+de+pois+chiches+et+%C3%A9pinards+%C3%A0+la+tomate%2C+riz+basmati",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "boeuf-bourguignon-version-sereine",
@@ -1843,7 +1900,10 @@ window.RECIPES = [
    "Dans la même cocotte, fais dorer carottes, oignons et champignons 5 min. Déglace au vinaigre balsamique, ajoute ail, soja et coulis.",
    "Remets la viande, mouille au bouillon (600 ml d'eau), couvre et laisse mijoter 60 à 70 min à frémissement.",
    "Cuire les pâtes. Sers le mijoté sur les pâtes avec beaucoup de persil : la sauce doit être courte et brillante."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Bourguignon+de+b%C5%93uf+carottes-champignons%2C+sauce+au+balsamique",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "filet-sole-grenobloise",
@@ -1928,7 +1988,10 @@ window.RECIPES = [
    "Farine légèrement les filets de sole, sel, poivre.",
    "Cuire 3 min de chaque côté dans l'huile + 2 g de beurre : retirer, jeter le gras.",
    "Ajoute le reste de beurre, citron en dés et câpres jusqu'à ce qu'il mousse, verse sur la sole, persil haché, sers avec la purée."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Sole+meuni%C3%A8re+%C3%A0+la+grenobloise%2C+pur%C3%A9e+de+patate+douce",
+  "inspiration": "Cheesy sweet potatoes (patate douce au fromage, façon Courtney Cook) — TikTok @courtneylcook 'butterkäse sweet potato' (2026)"
  },
  {
   "id": "falafels-four-yaourt-tahini",
@@ -2031,7 +2094,10 @@ window.RECIPES = [
    "Forme 6 à 8 boules par portion, pose-les sur la plaque brûlante huilée au pinceau.",
    "20 min en retournant à mi-cuisson : elles doivent être brunes partout.",
    "Sauce : yaourt grec, tahini, ail, jus de citron et eau pour la fluidifier. Sers avec pain, tomates et oignon rouge."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Falafels+croustillants+au+four%2C+sauce+yaourt-tahini",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "pates-poulet-pesto-roti",
@@ -2116,7 +2182,10 @@ window.RECIPES = [
    "Saisis le poulet en lanières 6 min à feu vif, sale et poivre.",
    "Mélange les pâtes chaudes au pesto hors du feu, en ajoutant de l'eau de cuisson jusqu'à ce que la sauce colle aux pâtes.",
    "Ajoute le poulet et les tomates coupées, zeste de citron, parmesan au-dessus."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=P%C3%A2tes+au+poulet+r%C3%B4ti+et+pesto+de+basilic+maison",
+  "inspiration": ""
  },
  {
   "id": "cabillaud-poivrons-fumes-tomates-confites",
@@ -2195,7 +2264,10 @@ window.RECIPES = [
    "Saisis le cabillaud 3 min de chaque côté dans une poêle très chaude, sale et poivre.",
    "Déglace la poêle avec un trait de citron, récupère les sucs.",
    "Dresse le cabillaud avec les tomates confites et les pois chiches croustillants, persil et citron."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Cabillaud+r%C3%B4ti%2C+pois+chiches+croustillants+et+tomates+confites+au+paprika+fum%C3%A9",
+  "inspiration": "Crispy rice salad (salade de riz croustillant) — TikTok — Noa Williams (via Simply Recipes, 2026), trend 'Lao crispy rice'"
  },
  {
   "id": "dinde-tagliatelle-moutarde",
@@ -2292,7 +2364,10 @@ window.RECIPES = [
    "Ajoute l'huile et la dinde en lanières, 5 min. Déglace avec le bouillon, ajoute moutarde et ail.",
    "Cuire les tagliatelles 3 min, ajoute-les à la poêle avec une louche d'eau de cuisson et les épinards.",
    "Hors du feu, ajoute le yaourt grec, mélange vite (jamais à ébullition), parmesan et persil."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Tagliatelles+%C3%A0+la+dinde%2C+champignons+et+sauce+moutarde+l%C3%A9g%C3%A8re",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "gratin-pommes-de-terre-thon",
@@ -2383,7 +2458,10 @@ window.RECIPES = [
    "Fais suer l'oignon et l'ail dans l'huile, ajoute le coulis et le thon égoutté émietté, 5 min.",
    "Monte le gratin : pommes de terre, sauce thon, lait cité de Maïzena, mozzarella râpée et origan.",
    "25 min au four, puis 3 min en gril : le dessus doit être doré et bouillonnant."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Gratin+de+pommes+de+terre+au+thon%2C+tomate+et+mozzarella",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "poulet-basquaise-poireaux-riz",
@@ -2474,7 +2552,10 @@ window.RECIPES = [
    "Fais suer oignons et ail, ajoute poivrons en lanières, paprika, piment 6 min. Ajoute coulis et bouillon.",
    "Remets le poulet, couvre, 25 min à feu doux. Découvre 5 min pour concentrer.",
    "Cuire le riz avec une pincée de curcuma et une feuille de laurier. Sers le poulet et sa sauce dessus."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Poulet+basquaise+aux+poivrons%2C+riz+jaune+au+curcuma",
+  "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
  {
   "id": "agneau-brochettes-herbes",
@@ -2571,7 +2652,10 @@ window.RECIPES = [
    "Cuire le quinoa 12 min, égoutte, laisse refroidir avec les tomates coupées, citron, reste du persil et coriandre.",
    "Courgettes en rondelles épaisses + huile restante, 4 min par face sur gril ou poêle très chaude.",
    "Pique l'agneau sur des brochettes, 3 min par face. Sers avec le taboulé de quinoa et les courgettes."
-  ]
+  ],
+  "photo": "",
+  "tiktok": "https://www.tiktok.com/search?q=Brochettes+d%27agneau+aux+herbes%2C+taboul%C3%A9+de+quinoa+et+courgettes+grill%C3%A9es",
+  "inspiration": ""
  }
 ];
 window.TRENDS = [

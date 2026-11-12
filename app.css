@@ -331,3 +331,97 @@ main{flex:1;padding:0 18px 108px;}
   color:rgba(22,21,15,.66);background:#fff;
 }
 .wk.is-on{background:var(--tomato);color:#fff;border-color:var(--tomato);}
+
+/* ------------------------------------------------------- photos & motion */
+.tonight-photo{
+  position:absolute;inset:0;background-size:cover;background-position:center;
+  opacity:.9;
+  -webkit-mask-image:linear-gradient(to bottom, rgba(0,0,0,.95) 0%, rgba(0,0,0,.55) 42%, rgba(0,0,0,0) 78%);
+  mask-image:linear-gradient(to bottom, rgba(0,0,0,.95) 0%, rgba(0,0,0,.55) 42%, rgba(0,0,0,0) 78%);
+  animation:imgIn .7s cubic-bezier(.2,.8,.2,1) both;
+}
+.tonight-card::before{
+  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(to top, var(--ink) 34%, rgba(22,21,15,.55) 62%, rgba(22,21,15,.18) 100%);
+}
+.tonight-top,.tonight-title,.tonight-tags,.tonight-kcal,.tonight-cta{position:relative;z-index:2;}
+.tonight-card{padding-top:78px;}
+@keyframes imgIn{from{opacity:0;transform:scale(1.06)}to{opacity:.9;transform:scale(1)}}
+
+.row-thumb{width:46px;height:46px;border-radius:11px;object-fit:cover;display:block;
+  box-shadow:0 1px 3px rgba(22,21,15,.18);}
+.row{grid-template-columns:46px 1fr auto;}
+
+.sheet-hero{
+  height:210px;margin:0 -18px 16px;background-size:cover;background-position:center;
+  border-radius:0 0 20px 20px;
+  animation:imgIn .8s cubic-bezier(.2,.8,.2,1) both;
+}
+.inspiration{
+  margin:18px 0 0;padding:12px 14px;border-radius:12px;background:#fff;border:1px solid var(--line);
+  font-size:12.5px;line-height:1.45;color:rgba(22,21,15,.72);
+}
+.inspiration b{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--tomato);margin-bottom:3px;font-weight:500;}
+.tiktok-btn{
+  display:flex;align-items:center;justify-content:center;gap:8px;margin:14px 0 0;
+  padding:14px;border-radius:999px;background:var(--ink);color:var(--paper);
+  text-decoration:none;font-family:var(--display);font-weight:600;font-size:14.5px;
+  transition:transform .14s cubic-bezier(.4,0,.2,1);
+}
+.tiktok-btn:active{transform:scale(.975);}
+.tiktok-btn svg{width:18px;height:18px;stroke-width:1.8;}
+
+/* --- motion d'entrée des blocs --- */
+@keyframes riseIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.tonight-card{animation:riseIn .45s cubic-bezier(.2,.8,.2,1) both;}
+.strip-head,.days{animation:riseIn .45s cubic-bezier(.2,.8,.2,1) both;}
+.days{animation-delay:.05s;}
+.row{animation:riseIn .4s cubic-bezier(.2,.8,.2,1) both;}
+.row:nth-child(1){animation-delay:.06s}.row:nth-child(2){animation-delay:.10s}
+.row:nth-child(3){animation-delay:.14s}.row:nth-child(4){animation-delay:.18s}
+.row:nth-child(5){animation-delay:.22s}.row:nth-child(6){animation-delay:.26s}
+.sheet-body{animation:riseIn .35s cubic-bezier(.2,.8,.2,1) both;}
+.shop-line{transition:opacity .25s ease,transform .25s ease;}
+.shop-line.is-check{opacity:.55;transform:translateX(2px);}
+.day{transition:transform .16s cubic-bezier(.4,0,.2,1),background .2s ease,color .2s ease;}
+.day:active{transform:scale(.94);}
+.wk{transition:transform .16s cubic-bezier(.4,0,.2,1),background .2s ease;}
+.wk:active{transform:scale(.94);}
+.portion-col{transition:background .22s ease,color .22s ease,box-shadow .22s ease;}
+.kcal-big,.day-kcal,.row-kcal b{font-variant-numeric:tabular-nums;}
+#screen{animation:fadeUp .28s ease both;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+.credits{margin:22px 0 0;font-size:10.5px;line-height:1.5;color:rgba(22,21,15,.55);}
+.credits code{font-family:var(--mono);font-size:10px;background:rgba(22,21,15,.06);padding:1px 4px;border-radius:3px;}
+
+/* --------------------------------------------------- visuel "assiette" */
+.plate-art{
+  position:relative;overflow:hidden;display:grid;place-items:center;
+  background:
+    radial-gradient(120% 100% at 20% 0%, hsl(var(--h) 42% 88%) 0%, hsl(var(--h) 32% 74%) 55%, hsl(calc(var(--h) + 18) 30% 62%) 100%);
+}
+.plate-art::after{
+  content:"";position:absolute;inset:0;
+  background-image:radial-gradient(rgba(255,255,255,.28) 1px, transparent 1px);
+  background-size:5px 5px;opacity:.5;mix-blend-mode:overlay;
+}
+.pa-ring{
+  position:absolute;border-radius:50%;border:1.5px solid rgba(255,255,255,.55);
+  width:62%;aspect-ratio:1;
+  box-shadow:inset 0 0 0 6px rgba(255,255,255,.16), 0 6px 18px rgba(22,21,15,.12);
+}
+.pa-letter{
+  position:relative;font-family:var(--display);font-weight:700;color:rgba(255,255,255,.92);
+  letter-spacing:-.04em;text-shadow:0 2px 8px rgba(22,21,15,.22);
+}
+.plate-art.hero{position:absolute;inset:0;opacity:.95;
+  -webkit-mask-image:linear-gradient(to bottom,#000 0%,rgba(0,0,0,.5) 46%,transparent 80%);
+  mask-image:linear-gradient(to bottom,#000 0%,rgba(0,0,0,.5) 46%,transparent 80%);}
+.plate-art.hero .pa-letter{font-size:110px;}
+.plate-art.thumb{width:46px;height:46px;border-radius:11px;}
+.plate-art.thumb .pa-letter{font-size:20px;}
+.plate-art.thumb .pa-ring{width:70%;box-shadow:inset 0 0 0 3px rgba(255,255,255,.18);}
+.plate-art.sheet{height:210px;margin:0 -18px 16px;border-radius:0 0 20px 20px;}
+.plate-art.sheet .pa-letter{font-size:86px;}
