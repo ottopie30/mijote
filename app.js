@@ -86,6 +86,9 @@
     return h;
   }
   function plateArt(r, size) {
+    if (r.illus) {
+      return `<img class="plate-img ${size}" src="img/${esc(r.illus)}" alt="" loading="lazy" decoding="async">`;
+    }
     const h = hue(r.id);
     const letter = (r.nom || '?').replace(/[^A-Za-zÀ-ÿ]/g, '').charAt(0).toUpperCase();
     return `<div class="plate-art ${size}" style="--h:${h}" aria-hidden="true">
@@ -117,7 +120,7 @@
           <h1 class="tonight-title">${esc(rec.nom)}</h1>
           <div class="tonight-tags">${(rec.tags || []).slice(0, 3).map((t) => `<span class="tag">${esc(t)}</span>`).join('')}</div>
           <div class="tonight-kcal">
-            <span class="kcal-big">${kcalOf(rec)}<small>kcal</small></span>
+            <span class="kcal-big"><span class="knum">${kcalOf(rec)}</span><small>kcal</small></span>
             <span class="kcal-side"><b>${protOf(rec)} g</b> de protéines<br>dans ta portion</span>
           </div>
           <div class="tonight-cta">
@@ -322,7 +325,7 @@
 
   function render() {
     screen.innerHTML = views[state.tab]();
-    const big = screen.querySelector('.kcal-big');
+    const big = screen.querySelector('.knum');
     if (big) { const v = parseInt(big.textContent, 10) || 0; big.textContent = '0'; countUp(big, v, ''); }
     document.querySelectorAll('.tab').forEach((t) => t.classList.toggle('is-on', t.dataset.go === state.tab));
     document.querySelectorAll('.pbtn').forEach((b) => {

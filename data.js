@@ -85,6 +85,7 @@ window.RECIPES = [
    "Sors la plaque, laisse reposer 3 min, nappe de yaourt à l'ail et sers avec le jus de cuisson versé dessus."
   ],
   "photo": "",
+  "illus": "poulet-citron-confit.svg",
   "tiktok": "https://www.tiktok.com/search?q=Poulet+r%C3%B4ti+au+citron+confit+et+yaourt+%C3%A0+l%27ail",
   "inspiration": "Greek yogurt Jell-O protéiné — TikTok @chef.erinmorley (2026, ~140 kcal / 25 g protéines)"
  },
@@ -179,6 +180,7 @@ window.RECIPES = [
    "Dresse le riz, le saumon, le concombre, l'avocat en tranches et un zigzag de mayo allégée, puis sème le sésame torréfié à sec."
   ],
   "photo": "",
+  "illus": "saumon-laque-gochujang.svg",
   "tiktok": "https://www.tiktok.com/search?q=Saumon+laqu%C3%A9+gochujang%2C+riz+et+concombre+croquant",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -261,6 +263,7 @@ window.RECIPES = [
    "Mélange aux gnocchi, parmesan râpé dessus et basilic déchiré au dernier moment."
   ],
   "photo": "",
+  "illus": "gnocchi-ricotta-tomates-roties.svg",
   "tiktok": "https://www.tiktok.com/search?q=Gnocchi+fondants+%C3%A0+la+ricotta+et+tomates+r%C3%B4ties",
   "inspiration": ""
  },
@@ -350,6 +353,7 @@ window.RECIPES = [
    "Dresse patate douce, bœuf, cottage cheese, avocat en lamelles et coriandre fraîche."
   ],
   "photo": "",
+  "illus": "boeuf-hache-taco-bowl.svg",
   "tiktok": "https://www.tiktok.com/search?q=Bol+taco+de+b%C5%93uf%2C+patate+douce+r%C3%B4tie+et+cottage+cheese",
   "inspiration": "High-protein hot honey beef/cottage cheese bowl (version veggie) — TikTok — trend 'protein bowls', crédité à Gracie Norton (2024), toujours massif en 2026 (S"
  },
@@ -438,6 +442,7 @@ window.RECIPES = [
    "Servez sur le riz, trait de citron vert et coriandre ciselée."
   ],
   "photo": "",
+  "illus": "curry-crevettes-coco.svg",
   "tiktok": "https://www.tiktok.com/search?q=Crevettes+au+curry+rouge+et+lait+de+coco%2C+riz+parfum%C3%A9",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -544,6 +549,7 @@ window.RECIPES = [
    "Cuire les pâtes al dente, mélange-les à la sauce, sers avec le yaourt grec en cuillère au centre."
   ],
   "photo": "",
+  "illus": "rigatoni-kefta-epinards.svg",
   "tiktok": "https://www.tiktok.com/search?q=Keftas+d%27agneau+en+sauce+tomate+au+yaourt%2C+rigatoni",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -632,6 +638,7 @@ window.RECIPES = [
    "12 min au four jusqu'à ce que la croûte dore. Sers sur la purée avec le citron en quartiers."
   ],
   "photo": "",
+  "illus": "cabillaud-croute-herbes.svg",
   "tiktok": "https://www.tiktok.com/search?q=Cabillaud+en+cro%C3%BBte+de+herbes+et+pur%C3%A9e+de+pommes+de+terre",
   "inspiration": ""
  },
@@ -720,6 +727,7 @@ window.RECIPES = [
    "Nappe de béchamel, couvre de mozzarella râpée, 15 min au four puis 3 min en position gril."
   ],
   "photo": "",
+  "illus": "endives-dinde-gratin.svg",
   "tiktok": "https://www.tiktok.com/search?q=Endives+gratin%C3%A9es+%C3%A0+la+dinde%2C+b%C3%A9chamel+l%C3%A9g%C3%A8re",
   "inspiration": ""
  },
@@ -814,6 +822,7 @@ window.RECIPES = [
    "Riz cuit, brocoli, cabillaud, sésame torréfié et un trait de soja cru."
   ],
   "photo": "",
+  "illus": "cabillaud-miso-laquee.svg",
   "tiktok": "https://www.tiktok.com/search?q=Cabillaud+laqu%C3%A9+au+miso%2C+brocoli+r%C3%B4ti+et+riz",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -914,6 +923,7 @@ window.RECIPES = [
    "Remets le bœuf, ajoute les nouilles, le reste de soja, la sriracha et un peu d'eau de cuisson : mélange 1 min jusqu'à ce que la sauce enrobe tout."
   ],
   "photo": "",
+  "illus": "boeuf-nouilles-sautees.svg",
   "tiktok": "https://www.tiktok.com/search?q=B%C5%93uf+saut%C3%A9+aux+nouilles%2C+poivrons+et+sauce+soja-gingembre",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -1014,6 +1024,7 @@ window.RECIPES = [
    "Sers avec le pain entier toasté, la sauce froide sur la dinde brûlante."
   ],
   "photo": "",
+  "illus": "dinde-tikka-cauliflower.svg",
   "tiktok": "https://www.tiktok.com/search?q=Dinde+tikka+r%C3%B4tie+au+chou-fleur%2C+yaourt+%C3%A0+la+menthe",
   "inspiration": "Yaourt glacé / tiramisu au yaourt (trend japonais 2 ingrédients) — TikTok @twisted, @brookelmason — Japanese 2-ingredient yoghurt cheesecake, 2026"
  },
@@ -1108,6 +1119,7 @@ window.RECIPES = [
    "Mélange aux pâtes et à la courgette, verse dans un plat, chapelure + 2 min sous le gril."
   ],
   "photo": "",
+  "illus": "gratin-mac-cheese-courgettes.svg",
   "tiktok": "https://www.tiktok.com/search?q=Mac+%26+cheese+prot%C3%A9in%C3%A9+aux+courgettes+et+cheddar+fondant",
   "inspiration": "High-protein hot honey beef/cottage cheese bowl (version veggie) — TikTok — trend 'protein bowls', crédité à Gracie Norton (2024), toujours massif en 2026 (S"
  },
@@ -1214,6 +1226,7 @@ window.RECIPES = [
    "Hydrate la semoule, sers l'agneau dessus, noix de cajou torréfiées et coriandre fraîche."
   ],
   "photo": "",
+  "illus": "agneau-tajine-abricots.svg",
   "tiktok": "https://www.tiktok.com/search?q=Tajine+d%27agneau+aux+abricots+et+amandes%2C+semoule+fine",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -1308,6 +1321,7 @@ window.RECIPES = [
    "10 à 12 min au four (le dessous doit être croustillant), puis roquette, parmesan et filet d'huile hors du four."
   ],
   "photo": "",
+  "illus": "pizza-blanche-poulet-ricotta.svg",
   "tiktok": "https://www.tiktok.com/search?q=Pizza+blanche+ricotta-citron%2C+poulet+r%C3%B4ti+et+roquette",
   "inspiration": "Cottage cheese pizza dip — TikTok @dr.rachelpaul, repris partout (Canadian Grocer fév 2026)"
  },
@@ -1402,6 +1416,7 @@ window.RECIPES = [
    "Verse la sauce, laisse 30 s à feu vif pour la faire briller, sers sur le riz avec la coriandre."
   ],
   "photo": "",
+  "illus": "crevettes-thai-citron-vert.svg",
   "tiktok": "https://www.tiktok.com/search?q=Crevettes+citron+vert-coriandre%2C+riz+gluant+et+pak-cho%C3%AF",
   "inspiration": ""
  },
@@ -1484,6 +1499,7 @@ window.RECIPES = [
    "Hors du feu, déchire la burrata dessus, parmesan et basilic. Sel, poivre, on mélange devant l'assiette."
   ],
   "photo": "",
+  "illus": "pates-burrata-tomates-roties.svg",
   "tiktok": "https://www.tiktok.com/search?q=P%C3%A2tes+fra%C3%AEches%2C+tomates+r%C3%B4ties+et+burrata+fondante",
   "inspiration": ""
  },
@@ -1590,6 +1606,7 @@ window.RECIPES = [
    "Bol : riz, poulet, tomates, oignon rouge en demi-lunes, sauce blanche, oignons frits et piment."
   ],
   "photo": "",
+  "illus": "bowl-poulet-facon-kebab.svg",
   "tiktok": "https://www.tiktok.com/search?q=Bol+kebab+%3A+poulet+marin%C3%A9%2C+riz%2C+sauce+blanche+et+oignons+frits",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -1690,6 +1707,7 @@ window.RECIPES = [
    "Toaste les buns, monte avec sauce aux herbes, salade, steak, cheddar, émincé de dinde croustillant, tomates, cornichons en rondelles."
   ],
   "photo": "",
+  "illus": "dinde-burger-maison.svg",
   "tiktok": "https://www.tiktok.com/search?q=Burger+de+dinde%2C+cheddar+fondant+et+sauce+aux+herbes",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -1796,6 +1814,7 @@ window.RECIPES = [
    "Sers sur le riz, jus de citron et coriandre."
   ],
   "photo": "",
+  "illus": "curry-pois-chiches-epinards.svg",
   "tiktok": "https://www.tiktok.com/search?q=Curry+de+pois+chiches+et+%C3%A9pinards+%C3%A0+la+tomate%2C+riz+basmati",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -1902,6 +1921,7 @@ window.RECIPES = [
    "Cuire les pâtes. Sers le mijoté sur les pâtes avec beaucoup de persil : la sauce doit être courte et brillante."
   ],
   "photo": "",
+  "illus": "boeuf-bourguignon-version-sereine.svg",
   "tiktok": "https://www.tiktok.com/search?q=Bourguignon+de+b%C5%93uf+carottes-champignons%2C+sauce+au+balsamique",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -1990,6 +2010,7 @@ window.RECIPES = [
    "Ajoute le reste de beurre, citron en dés et câpres jusqu'à ce qu'il mousse, verse sur la sole, persil haché, sers avec la purée."
   ],
   "photo": "",
+  "illus": "filet-sole-grenobloise.svg",
   "tiktok": "https://www.tiktok.com/search?q=Sole+meuni%C3%A8re+%C3%A0+la+grenobloise%2C+pur%C3%A9e+de+patate+douce",
   "inspiration": "Cheesy sweet potatoes (patate douce au fromage, façon Courtney Cook) — TikTok @courtneylcook 'butterkäse sweet potato' (2026)"
  },
@@ -2096,6 +2117,7 @@ window.RECIPES = [
    "Sauce : yaourt grec, tahini, ail, jus de citron et eau pour la fluidifier. Sers avec pain, tomates et oignon rouge."
   ],
   "photo": "",
+  "illus": "falafels-four-yaourt-tahini.svg",
   "tiktok": "https://www.tiktok.com/search?q=Falafels+croustillants+au+four%2C+sauce+yaourt-tahini",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -2184,6 +2206,7 @@ window.RECIPES = [
    "Ajoute le poulet et les tomates coupées, zeste de citron, parmesan au-dessus."
   ],
   "photo": "",
+  "illus": "pates-poulet-pesto-roti.svg",
   "tiktok": "https://www.tiktok.com/search?q=P%C3%A2tes+au+poulet+r%C3%B4ti+et+pesto+de+basilic+maison",
   "inspiration": ""
  },
@@ -2266,6 +2289,7 @@ window.RECIPES = [
    "Dresse le cabillaud avec les tomates confites et les pois chiches croustillants, persil et citron."
   ],
   "photo": "",
+  "illus": "cabillaud-poivrons-fumes-tomates-confites.svg",
   "tiktok": "https://www.tiktok.com/search?q=Cabillaud+r%C3%B4ti%2C+pois+chiches+croustillants+et+tomates+confites+au+paprika+fum%C3%A9",
   "inspiration": "Crispy rice salad (salade de riz croustillant) — TikTok — Noa Williams (via Simply Recipes, 2026), trend 'Lao crispy rice'"
  },
@@ -2366,6 +2390,7 @@ window.RECIPES = [
    "Hors du feu, ajoute le yaourt grec, mélange vite (jamais à ébullition), parmesan et persil."
   ],
   "photo": "",
+  "illus": "dinde-tagliatelle-moutarde.svg",
   "tiktok": "https://www.tiktok.com/search?q=Tagliatelles+%C3%A0+la+dinde%2C+champignons+et+sauce+moutarde+l%C3%A9g%C3%A8re",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -2460,6 +2485,7 @@ window.RECIPES = [
    "25 min au four, puis 3 min en gril : le dessus doit être doré et bouillonnant."
   ],
   "photo": "",
+  "illus": "gratin-pommes-de-terre-thon.svg",
   "tiktok": "https://www.tiktok.com/search?q=Gratin+de+pommes+de+terre+au+thon%2C+tomate+et+mozzarella",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -2554,6 +2580,7 @@ window.RECIPES = [
    "Cuire le riz avec une pincée de curcuma et une feuille de laurier. Sers le poulet et sa sauce dessus."
   ],
   "photo": "",
+  "illus": "poulet-basquaise-poireaux-riz.svg",
   "tiktok": "https://www.tiktok.com/search?q=Poulet+basquaise+aux+poivrons%2C+riz+jaune+au+curcuma",
   "inspiration": "Cottage cheese pasta sauce (pâtes protéinées) — TikTok — kelvinskitchen / vagues 2025-2026, confirmé par Canadian Grocer 2026"
  },
@@ -2654,6 +2681,7 @@ window.RECIPES = [
    "Pique l'agneau sur des brochettes, 3 min par face. Sers avec le taboulé de quinoa et les courgettes."
   ],
   "photo": "",
+  "illus": "agneau-brochettes-herbes.svg",
   "tiktok": "https://www.tiktok.com/search?q=Brochettes+d%27agneau+aux+herbes%2C+taboul%C3%A9+de+quinoa+et+courgettes+grill%C3%A9es",
   "inspiration": ""
  }

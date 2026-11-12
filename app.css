@@ -425,3 +425,35 @@ main{flex:1;padding:0 18px 108px;}
 .plate-art.thumb .pa-ring{width:70%;box-shadow:inset 0 0 0 3px rgba(255,255,255,.18);}
 .plate-art.sheet{height:210px;margin:0 -18px 16px;border-radius:0 0 20px 20px;}
 .plate-art.sheet .pa-letter{font-size:86px;}
+
+/* --------------------------------------------------- illustrations SVG */
+.plate-img{display:block;object-fit:cover;}
+.plate-img.hero{position:absolute;inset:0;width:100%;height:100%;
+  -webkit-mask-image:linear-gradient(to bottom,#000 0%,rgba(0,0,0,.55) 46%,transparent 82%);
+  mask-image:linear-gradient(to bottom,#000 0%,rgba(0,0,0,.55) 46%,transparent 82%);
+  animation:imgIn .7s cubic-bezier(.2,.8,.2,1) both;}
+.plate-img.thumb{width:46px;height:46px;border-radius:11px;}
+.plate-img.sheet{height:210px;width:100%;margin:0 -18px 16px;width:calc(100% + 36px);
+  border-radius:0 0 20px 20px;animation:imgIn .8s cubic-bezier(.2,.8,.2,1) both;}
+
+.tonight-card::before{background:linear-gradient(to top, var(--ink) 26%, rgba(22,21,15,.66) 54%, rgba(22,21,15,.04) 100%) !important;}
+.plate-img.hero{object-position:center 64%;transform:scale(1.12);}
+.plate-img.thumb{object-position:center 57%;}
+.tonight-card{padding-top:104px;}
+
+/* --- carte du soir : bandeau visuel net en haut, texte sur encre --- */
+.tonight-card{padding:0 20px 18px !important;}
+.tonight-card::before{display:none !important;}
+.plate-img.hero,.tonight-photo{
+  position:relative !important;inset:auto !important;
+  height:196px;width:calc(100% + 40px);margin:0 -20px 14px !important;
+  border-radius:var(--r-lg) var(--r-lg) 0 0;
+  -webkit-mask-image:none !important;mask-image:none !important;
+  opacity:1 !important;transform:none !important;object-position:center 58% !important;
+}
+.tonight-top{margin-top:2px;}
+.plate-art.hero{position:relative !important;inset:auto !important;height:196px;
+  width:calc(100% + 40px);margin:0 -20px 14px !important;border-radius:var(--r-lg) var(--r-lg) 0 0;
+  -webkit-mask-image:none !important;mask-image:none !important;}
+
+.plate-img.hero{transform:scale(1.28) !important;object-position:center 52% !important;}
